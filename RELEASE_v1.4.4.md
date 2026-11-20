@@ -2,9 +2,9 @@
 
 ## リリース情報
 
-- 製品名：Web Security Assessment Platform (WSA)
+- 製品名：Webセキュリティ評価プラットフォーム（WSA）
 - バージョン：1.4.4
-- リリース種別：Local Test
+- リリース種別：ローカルテスト版（Local Test）
 - 公開日：2026-11-19
 
 ## 署名鍵情報
@@ -15,7 +15,7 @@
 
 `9f23e3adf9f7f2c96ff45814baa318eedf95eccfe794537cba914d3b1846f10c`
 
-## 配布ファイル
+## ファイル配布情報
 
 - ZIP：`WSA_v1.4.4_Web_FileScanner_Local_Test.zip`
 - ZIP SHA-256：
@@ -33,25 +33,27 @@ https://wsa-release-api.youtube-marketingdx-trainingworkers.workers.dev/api/rele
 
 ## 検証結果
 
-- ブートストラップSHA-256照合：PASS
+- Bootstrap SHA-256照合：PASS
 - ZIP SHA-256照合：PASS
 - Ed25519署名検証：PASS
 - ファイルインベントリ検証：PASS
 - ディスク再ハッシュ：PASS
-- 本番公開後の配布API確認：PASS
+- 公開後の配信API確認：PASS
 
-## 利用上の注意
+## ご利用上の注意
 
-本リリースはLocal Test版です。
+本リリースはローカルテスト版です。
 
 Web診断は試験用URLのみ対応し、任意の実サイト診断には未対応です。
 
-Windows実機でのインストール、Defender連携、実環境でのスキャン動作は別途検証が必要です。
+Windows実機でのインストール、Microsoft Defender連携、実環境でのスキャン動作は別途検証が必要です。
 
 本製品は既存のウイルス対策ソフトを代替するものではありません。
 
+本リリースはProduction Readyではありません。
+
 ## 検証方針
 
-配布ファイルのSHA-256、公開鍵指紋、Ed25519署名検証結果を照合してから実行してください。
+配布ファイルのSHA-256、独立した経路で確認した公開鍵指紋、Ed25519署名検証結果を照合してから実行してください。
 
 いずれかが一致しない場合は実行を中止してください。
