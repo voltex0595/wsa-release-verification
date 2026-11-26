@@ -35,3 +35,17 @@ The API is authoritative for availability and supplies the current release metad
 5. If any digest or fingerprint differs, do not execute the package.
 
 This notice is published under the `voltex0595/wsa-release-verification` GitHub repository as an independent trust reference. It does not contain the WSA source tree, private signing key, Cloudflare credentials, or R2 credentials.
+
+
+## WSA v1.4.5 - 2026-11-25
+
+- Distribution: WSA_v1.4.5_Web_FileScanner_Local_Test.zip
+- SHA-256: 4c8c66565626876a27faf83be37d537cfcaecb397f0a3f2c87726f26b357a530
+- Ed25519 signing fingerprint: 9f23e3adf9f7f2c96ff45814baa318eedf95eccfe794537cba914d3b1846f10c
+- Container audit: REVIEW
+- Trivy at build: 225 findings; 102 unique IDs; 54 HIGH (14 unique HIGH IDs); 0 CRITICAL
+- macOS hardware: NOT TESTED
+- Production remote E2E: NOT TESTED
+- Authenticode: unsigned
+- Known findings remain under review; security certification is not claimed.
+- Previous v1.4.4 remains available.
