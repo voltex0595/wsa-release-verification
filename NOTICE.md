@@ -49,3 +49,15 @@ This notice is published under the `voltex0595/wsa-release-verification` GitHub 
 - Authenticode: unsigned
 - Known findings remain under review; security certification is not claimed.
 - Previous v1.4.4 remains available.
+
+
+## WSA v1.4.6 - 2026-11-27
+
+- Independent verification reference: [RELEASE_v1.4.6.md](RELEASE_v1.4.6.md)
+- Release scope: Windows Local Test
+- Signed RC ZIP SHA-256: 66e7704699a696385dd8a2cc5923d3e95a09d132860448cf55f7de92cea35e6e
+- Official Ed25519 signing fingerprint: 9f23e3adf9f7f2c96ff45814baa318eedf95eccfe794537cba914d3b1846f10c
+- Windows signed RC QA: PASS (337 regression PASS, 0 FAIL, 3 SKIP)
+- Norton antivirus verification status: AV_UNVERIFIED, one-time explicit acknowledgment required for local test startup
+- NOT TESTED: physical sleep/resume, physical USB removal, default scan of all physical drives, macOS hardware
+- A GitHub verification notice does not mean that v1.4.6 is already hosted on Cloudflare. Confirm availability through the official release API.
